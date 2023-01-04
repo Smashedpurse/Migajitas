@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import HeadLiners from './components/HeadlLiners/HeadLiners';
 import Bread from './components/Bread/Bread';
 import Category from './components/Category/Category';
+import Footer from './components/Footer/Footer'
 
 import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
@@ -19,6 +20,8 @@ function App() {
       <HeadLiners/>
       <Bread/>
       <Category/>
+      <Footer/>
+      
     </div>
   );
 }
