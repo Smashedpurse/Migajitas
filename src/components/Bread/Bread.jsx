@@ -34,7 +34,7 @@ const Bread = () => {
       <div className="flex flex-col lg:flex-row justify-between">
         {/* Filter Type */}
         <div>
-          <p className="font-bold text-gray-700">Filter Type</p>
+          <p className="font-bold text-gray-700">Busca tu pan</p>
           <div className="flex- justify-between flex-wrap">
             <button onClick={()=> setBreads(data)} className=" m-1 border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white rounded-xl px-5 py-1">
               Todos
