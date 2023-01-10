@@ -11,7 +11,7 @@ const footer = () => {
     <footer>
       <div className="p-5 bg-black text-gray-200">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:cols-1 md:cols-2 lg:grid-cols-4 gap-2 ">
+          <div className="grid grid-cols-1 sm:cols-1 md:cols-2 lg:grid-cols-4 gap-1 ">
             <div className=" mb-5">
               <h4 className="text-2xl pb-4">
                 {" "}
