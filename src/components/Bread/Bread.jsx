@@ -53,7 +53,7 @@ const Bread = () => {
 
         {/* Filter Price */}
         <div>
-          <p className="font-bold text-gray-700">Filter Price</p>
+          <p className="font-bold text-gray-700">El ideal de tu bolsillo</p>
           <div className="flex justify-between max-w-[390px] w-full">
             <button onClick={() => filterPrice('$')} className="m-1 border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white rounded-xl px-5 py-1">
               $

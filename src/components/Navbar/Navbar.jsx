@@ -24,7 +24,7 @@ const Navbar = () => {
           <p className="bg-black text-white rounded-full p-2">Encuentranos</p>
         </div>
       </div>
-      {/* Search input */}
+      {/* Search input
       <div className="bg-gray-200 rounded-full flex items-center w-[200px] sm:w-[400px] lg:w-[500px] ">
         <AiOutlineSearch size={25} />
         <input
@@ -32,7 +32,7 @@ const Navbar = () => {
           type="text"
           placeholder="Busqueda"
         ></input>
-      </div>
+      </div> */}
       {/* Cart Button */}
       <button className=" bg-black text-white hidden md:flex items-center py-2 px-1 rounded-full">
         <GiBread size={20} className="mr-1" />
