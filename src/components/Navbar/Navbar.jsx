@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
+
+import { AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 import { GiBread } from "react-icons/gi";
-import {MdOutlineFavorite,MdRestaurantMenu,MdLocationOn,} from "react-icons/md";
-import { FcAbout } from "react-icons/fc";
+import {MdOutlineFavorite,MdRestaurantMenu,MdLocationOn,MdBakeryDining} from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
@@ -18,8 +17,9 @@ const Navbar = () => {
           <AiOutlineMenu size={30} />
         </div>
         <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-          <span className="font-bold"> Migajitas</span>
-        </h1>
+          <span className="font-bold">  Migajitas</span>
+          </h1>
+          <MdBakeryDining size={50} className="p-1"/>
         <div className="hidden lg:flex items-center rounded-full p-1 text-[14px]">
           <p className="bg-black text-white rounded-full p-2">Encuentranos</p>
         </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
         ></input>
       </div> */}
       {/* Cart Button */}
-      <button className=" bg-black text-white hidden md:flex items-center py-2 px-1 rounded-full">
-        <GiBread size={20} className="mr-1" />
+      <button className=" bg-black text-white hidden md:flex items-center p-2 rounded-full">
+        <GiBread size={20} className="mr-2" />
         Menú
       </button>
 
