@@ -21,8 +21,7 @@ function App() {
       <Bread/>
       <Location/>
       <Footer/>
-      
-    </div>
+      </div>
   );
 }
 
