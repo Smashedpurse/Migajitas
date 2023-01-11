@@ -1,8 +1,6 @@
 import React from "react";
-import Map from "../GoogleMap/Map"
-import credentials from "../../credentials"
+import Mapa from "../../images/mapa.PNG"
 
-const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`
 
 const Category = (props) => {
   return (
@@ -19,13 +17,7 @@ const Category = (props) => {
           </p>
           <p>Telefono: 5612081391</p>
         </strong>
-        {/* Google maps */}
-        <Map
-          googleMapURL= {mapURL}
-          containerElement= {<div style={{height: '400px'}}/>}
-          mapElement= {<div style={{height: '100%'}}/>}
-          loadingElement= {<p>Cargando</p>}
-        />
+        <img src={Mapa} alt="mapa"/>
       </div>
     </div>
   );
