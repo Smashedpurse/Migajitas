@@ -23,7 +23,6 @@ function App() {
       <Slider/>
       <Bread/>
       <Location/>
-      {/* <Map/> */}
       <Footer/>
 
       </div>
