@@ -15,6 +15,7 @@ const Category = () => {
           </p>
           <p>Telefono: 5612081391</p>
         </strong>
+        {/* Google maps */}
           <img src={mapa} alt="First Location"/>
       </div>
     </div>
