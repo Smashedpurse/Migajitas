@@ -18,7 +18,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
+    <div className="max-w-[1400px] h-[730px] w-full m-auto py-16 px-4 relative group">
       <h1 className="text-black font-bold text-4xl text-center mb-4">
         Un Taquito de Ojo
       </h1>
