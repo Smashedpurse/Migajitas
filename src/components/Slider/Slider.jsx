@@ -18,13 +18,13 @@ const Slider = () => {
   };
 
   return (
-    <div className="max-w-[1400px] h-[730px] w-full m-auto py-16 px-4 relative group">
+    <div className="max-w-[1400px] h-[730px] w-full m-auto py-10 px-4 relative group">
       <h1 className="text-black font-bold text-4xl text-center mb-4">
         Un Taquito de Ojo
       </h1>
       <div
         style={{ backgroundImage: `url(${sliderData[currentIndex].url})` }}
-        className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+        className="w-full h-full rounded-2xl bg-center bg-cover duration-500 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
       ></div>
       {/* left arrow */}
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[%50] left-5 text-2xl  p-2 bg-black/20 text-white cursor-pointer ">
