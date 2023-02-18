@@ -1,11 +1,8 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import Mapa from "../../images/mapa.PNG";
-import Map from "../GoogleMap/Map.jsx"
 
 const CardLocation = () => {
 
-  const newLocal = <iframe width="700" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Calz.%20Sta.%20Cruz%20169-A,%20San%20Sim%C3%B3n,%20Benito%20Ju%C3%A1rez,%2003660%20Ciudad%20de%20M%C3%A9xico,%20CDMX&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  const newLocal = <iframe width="700" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Calz.%20Sta.%20Cruz%20169-A,%20San%20Sim%C3%B3n,%20Benito%20Ju%C3%A1rez,%2003660%20Ciudad%20de%20M%C3%A9xico,%20CDMX&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Map"></iframe>
 
   return (
   <>

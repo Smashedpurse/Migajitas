@@ -7,7 +7,7 @@ import Bread from './components/Bread/Bread';
 import Location from './components/Location/Location';
 import Footer from './components/Footer/Footer'
 import Slider from './components/Slider/Slider';
-import Map from './components/GoogleMap/Map';
+
 
 // import HomePage from "./pages/HomePage/HomePage";
 // import AboutPage from "./pages/AboutPage/AboutPage";
